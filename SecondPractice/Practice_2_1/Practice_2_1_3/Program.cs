@@ -17,7 +17,7 @@ class Program
         numbers = new int[int.Parse(Console.ReadLine())];
 
         Console.WriteLine("Input numbers: ");
-        for (int i = 0; i < numbers.Length; i++)
+        for (int i = 0; i < numbers.Length; ++i)
         {
             numbers[i] = int.Parse(Console.ReadLine());
         }

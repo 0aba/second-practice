@@ -38,7 +38,6 @@ class Program
         return NewTrain;
     }
 
-
     static void Main()
     {
         /*

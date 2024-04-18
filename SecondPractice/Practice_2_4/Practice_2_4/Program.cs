@@ -20,10 +20,7 @@ class ParserRomanNumber
         int result = 0;
         char сurrentLargeRomanNumber = 'I';
 
-        if (!CheckValidRomanNumber(romanNumber))
-        {
-            return ERROR_ROMAN_NUMBER;
-        }
+        if (!CheckValidRomanNumber(romanNumber))  { return ERROR_ROMAN_NUMBER; }
 
         for (int i = romanNumber.Length - 1; i > -1; --i)
         {

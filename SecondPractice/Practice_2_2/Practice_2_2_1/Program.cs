@@ -57,7 +57,7 @@ class Program
 
         if ((DateTime.Now - NewStudent.DateOfBirth) < new TimeSpan(15 * 365, 0, 0, 0, 0, 0))
         {
-            Console.WriteLine($"Error: age less 15!!!1");
+            Console.WriteLine("Error: age less 15!!!1");
         }
         else
         {

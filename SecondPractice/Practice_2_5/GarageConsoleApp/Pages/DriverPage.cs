@@ -58,6 +58,8 @@ public class DriverPage
 
             if (key.Key != ConsoleKey.Enter) { continue; }
             
+            Console.Clear();
+            
             switch (currentOptionMenu)
             {
                 case _OptionMenu.ViewDriverOption:
@@ -87,6 +89,8 @@ public class DriverPage
     private static void _ViewDriver()
     {
         DatabaseRequests.GetDriverQuery();
+        Console.Write("Enter for continue...");
+        Console.ReadKey(true);
     }
     
     private static void _AddDriver()
@@ -125,6 +129,8 @@ public class DriverPage
     private static void _ViewLicense()
     {
         DatabaseRequests.GetRightsCategoryQuery();
+        Console.Write("Enter for continue...");
+        Console.ReadKey(true);
     }
     
     private static void _AddLicense()
@@ -161,10 +167,11 @@ public class DriverPage
         catch (Npgsql.NpgsqlException error)
         {
             Console.WriteLine($"Sql state: {error.Data["SqlState"]}\n" +
-                              $"Message text; {error.Data["MessageText"]}\n" +
-                              $"Enter for continue...");
-            Console.ReadKey(true);
+                              $"Message text; {error.Data["MessageText"]}");
         }
+        
+        Console.Write("Enter for continue...");
+        Console.ReadKey(true);
     }
     
     private static void _AddLicenseDriver()

@@ -53,6 +53,8 @@ public class CarPage
 
             if (key.Key != ConsoleKey.Enter) { continue; }
             
+            Console.Clear();
+            
             switch (currentOptionMenu)
             {
                 case _OptionMenu.ViewCarOption:
@@ -76,6 +78,9 @@ public class CarPage
     private static void _ViewCar()
     {
         DatabaseRequests.GetCarQuery();
+        Console.Write("Enter for continue...");
+        Console.ReadKey(true);
+        
     }
     
     private static void _AddCar()
@@ -133,6 +138,8 @@ public class CarPage
     private static void _ViewTypeCar()
     {
         DatabaseRequests.GetTypeCarQuery();
+        Console.Write("Enter for continue...");
+        Console.ReadKey(true);
     }
     
     private static void _AddTypeCar()

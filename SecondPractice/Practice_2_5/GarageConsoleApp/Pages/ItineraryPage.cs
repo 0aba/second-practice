@@ -48,6 +48,8 @@ public class ItineraryPage
 
             if (key.Key != ConsoleKey.Enter) { continue; }
             
+            Console.Clear();
+            
             switch (currentOptionMenu)
             {
                 case _OptionMenu.ViewItineraryOption:
@@ -65,6 +67,8 @@ public class ItineraryPage
     private static void _ViewItinerary()
     {
         DatabaseRequests.GetItineraryQuery();
+        Console.Write("Enter for continue...");
+        Console.ReadKey(true);
     }
     
     private static void _AddItinerary()

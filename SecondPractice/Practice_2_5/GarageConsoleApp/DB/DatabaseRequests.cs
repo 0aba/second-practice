@@ -26,7 +26,7 @@ public static class DatabaseRequests
         // Выводим данные которые вернула БД
         while (reader.Read())
         {
-            Console.WriteLine($"Id: {reader[0]} Название: {reader[1]}");
+            Console.WriteLine($"Id: {reader[0]} Name type: {reader[1]}");
         }
     }
 
@@ -47,7 +47,7 @@ public static class DatabaseRequests
     /// </summary>
     public static void AddDriverQuery(string firstName, string lastName, DateTime birthdate)
     {
-        var querySql = $"INSERT INTO driver(first_name, last_name, birthdate) VALUES ('{firstName}', '{lastName}', '{birthdate}')";
+        var querySql = $"INSERT INTO driver(first_name, last_name, birthdate) VALUES ('{firstName}', '{lastName}', '{birthdate: yyyy-MM-dd}')";
         using var cmd = new NpgsqlCommand(querySql, DatabaseService.GetSqlConnection());
         cmd.ExecuteNonQuery();
     }
@@ -65,7 +65,7 @@ public static class DatabaseRequests
 
         while (reader.Read())
         {
-            Console.WriteLine($"Id: {reader[0]} Имя: {reader[1]} Фамилия: {reader[2]} Дата рождения: {reader[3]}");
+            Console.WriteLine($"Id: {reader[0]} Name: {reader[1]} Surname: {reader[2]} Date of birth: {reader[3]}");
         }
     }
 
@@ -93,7 +93,7 @@ public static class DatabaseRequests
 
         while (reader.Read())
         {
-            Console.WriteLine($"Id: {reader[0]} Категория: {reader[1]}");
+            Console.WriteLine($"Id: {reader[0]} Category: {reader[1]}");
         }
     }
 
@@ -125,7 +125,7 @@ public static class DatabaseRequests
 
         while (reader.Read())
         {
-            Console.WriteLine($"Имя: {reader[0]} Фамилия: {reader[1]} Категория прав: {reader[2]}");
+            Console.WriteLine($"Name: {reader[0]} Surname: {reader[1]} Rights category: {reader[2]}");
         }
     }
     
@@ -135,7 +135,7 @@ public static class DatabaseRequests
     /// </summary>
     public static void AddCarQuery(int idTypeCar, string name, string stateNumber, uint numberPassengers)
     {
-        var querySql = $"INSERT INTO car(id_type_car, name, state_number, number_passengers) VALUES ({idTypeCar}, {name}, {stateNumber}, {numberPassengers})";
+        var querySql = $"INSERT INTO car(id_type_car, name, state_number, number_passengers) VALUES ({idTypeCar}, '{name}', '{stateNumber}', {numberPassengers})";
         using var cmd = new NpgsqlCommand(querySql, DatabaseService.GetSqlConnection());
         cmd.ExecuteNonQuery();
     }
@@ -153,7 +153,7 @@ public static class DatabaseRequests
         
         while (reader.Read())
         {
-            Console.WriteLine($"Id: {reader[0]} Id типа машины: {reader[1]} Название машины: {reader[2]} Штатный номер машины: {reader[3]} Максимальное количество пассажиров: {reader[4]}");
+            Console.WriteLine($"Id: {reader[0]} Id car type: {reader[1]} Name car: {reader[2]} State number: {reader[3]} Max number passengers: {reader[4]}");
         }
     }
 
@@ -170,7 +170,7 @@ public static class DatabaseRequests
         
         while (reader.Read())
         {
-            Console.WriteLine($"Id: {reader[0]} Маршрут: {reader[1]}");
+            Console.WriteLine($"Id: {reader[0]} Itinerary: {reader[1]}");
         }
     }
 
@@ -198,7 +198,7 @@ public static class DatabaseRequests
         
         while (reader.Read())
         {
-            Console.WriteLine($"Id: {reader[0]} Id водителя: {reader[1]} Id машины: {reader[2]} Id маршрута: {reader[3]} Количество пассажиров: {reader[4]}");
+            Console.WriteLine($"Id: {reader[0]} Id driver: {reader[1]} Id car: {reader[2]} Id itinerary: {reader[3]} Number passengers: {reader[4]}");
         }
     }
 

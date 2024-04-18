@@ -38,7 +38,7 @@ class Program
 
         СlassOfTwoNumbers TwoNumbers = new СlassOfTwoNumbers();
 
-        Console.WriteLine("Input numbers: ");
+        Console.Write("Input numbers: ");
         TwoNumbers.ChangeNumbers(int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()));
 
         TwoNumbers.PrintNumbers();

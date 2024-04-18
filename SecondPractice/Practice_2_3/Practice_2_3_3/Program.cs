@@ -20,7 +20,7 @@ class Calculation
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
         int n = 0;
         Calculation NewCalculation = new Calculation();
@@ -33,14 +33,14 @@ class Program
         n = int.Parse(Console.ReadLine());
         Console.WriteLine();
 
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < n; ++i)
         {
             Console.WriteLine($"deleted char: {NewCalculation.GetLastSymbol()}");
             NewCalculation.DeleteLastSymbol();
         }
         
         Console.WriteLine($"input {n} new char:");
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < n; ++i)
         {
             NewCalculation.SetLastSymbolCalculationLine(Console.ReadLine()[0]);
         }

@@ -38,11 +38,11 @@ class Program
         Worker NewWorker = new Worker();
         
         Console.Write("input name: ");
-        NewWorker.Name = Console.ReadLine();
+        NewWorker.Name = Console.ReadLine().Trim();
         Console.WriteLine();
         
         Console.Write("input surname: ");
-        NewWorker.Surname = Console.ReadLine();
+        NewWorker.Surname = Console.ReadLine().Trim();
         Console.WriteLine();
         
         Console.Write("input rate: ");

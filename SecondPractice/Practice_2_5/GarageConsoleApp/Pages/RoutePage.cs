@@ -49,6 +49,8 @@ public class RoutePage
 
             if (key.Key != ConsoleKey.Enter) { continue; }
             
+            Console.Clear();
+            
             switch (currentOptionMenu)
             {
                 case _OptionMenu.ViewRouteOption:
@@ -66,6 +68,8 @@ public class RoutePage
     private static void _ViewRoute()
     {
         DatabaseRequests.GetRouteQuery();
+        Console.Write("Enter for continue...");
+        Console.ReadKey(true);
     }
     
     private static void _AddRoute()
