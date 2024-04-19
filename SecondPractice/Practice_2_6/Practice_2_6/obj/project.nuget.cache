@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "+jlucjUZedvgRVky8Mc5O3A5K3jAqYa97cE6P7M2kxsIuQI6bAA/A4pQNuBPckKO9PVGbjRgj8e7e8wju+Sk1g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aba\\Desktop\\second_practice\\SecondPractice\\Practice_2_6\\Practice_2_6\\Practice_2_6.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aba\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\aba\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\aba\\.nuget\\packages\\npgsql\\8.0.2\\npgsql.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
