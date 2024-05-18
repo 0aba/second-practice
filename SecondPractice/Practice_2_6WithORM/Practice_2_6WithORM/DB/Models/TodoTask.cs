@@ -17,9 +17,9 @@ public class TodoTask
     public string Title { get; set; } = string.Empty;
     [Required, Column("text_todo", TypeName = "VARCHAR(128)")]
     public string TextTodo { get; set; } = string.Empty;
-    [Required, Column("time_end", TypeName = "TIMESTAMP"), DisplayFormat(DataFormatString = "{0:yyyy-MM-dd HH:mm:ss.}", ApplyFormatInEditMode=true)]
+    [Required, Column("time_end", TypeName = "TIMESTAMP"), DisplayFormat(DataFormatString = "{0:yyyy-MM-dd HH:mm:ss}", ApplyFormatInEditMode=true)]
     public DateTime TimeEnd { get; set; }
-    // DefaultValue(false) не работает анатация, оставил для 
+    // не работает анатация DefaultValue(false), оставил для вида
     [Required, DefaultValue(false), Column("complited", TypeName = "BOOLEAN")]
     public bool Complited { get; set; } = false;
 }

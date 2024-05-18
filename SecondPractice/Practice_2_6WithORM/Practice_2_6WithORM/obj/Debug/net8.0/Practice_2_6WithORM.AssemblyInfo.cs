@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Practice_2_6WithORM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4434db96fc2d407fab1fd5f6c12f3077b9f9d09e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+775a063d69ffac45756b79220da45e915090412c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Practice_2_6WithORM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Practice_2_6WithORM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

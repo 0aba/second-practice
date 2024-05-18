@@ -483,7 +483,7 @@ internal static class Сommands
         catch (Microsoft.EntityFrameworkCore.DbUpdateException error)
         {
             Console.WriteLine($"Error: {error.Message}");
-            Console.ReadKey(true);
         }
+        Console.ReadKey(true);
     }
 }

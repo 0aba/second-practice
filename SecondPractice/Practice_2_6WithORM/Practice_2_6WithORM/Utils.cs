@@ -104,7 +104,7 @@ internal static class Utils
         {
             Console.Write(chr);
 
-            if (countCharInLine == 100)
+            if (countCharInLine == _wight)
             {
                 Console.WriteLine("— |");
                 Console.Write("|");
