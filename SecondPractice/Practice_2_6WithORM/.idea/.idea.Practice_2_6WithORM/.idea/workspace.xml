@@ -10,11 +10,18 @@
     <list default="true" id="08048a3a-4d66-44b0-a148-8d43d7ff076f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Practice_2_6WithORM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Practice_2_6WithORM/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practice_2_6WithORM/Commands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_2_6WithORM/Commands.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice_2_6WithORM/DB/TodoTask.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_2_6WithORM/DB/Models/TodoTask.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice_2_6WithORM/DB/UserAPP.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_2_6WithORM/DB/Models/UserAPP.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice_2_6WithORM/Utils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_2_6WithORM/Utils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_2_6WithORM/bin/Debug/net8.0/Practice_2_6WithORM.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_2_6WithORM/bin/Debug/net8.0/Practice_2_6WithORM.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_2_6WithORM/bin/Debug/net8.0/Practice_2_6WithORM.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_2_6WithORM/bin/Debug/net8.0/Practice_2_6WithORM.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_2_6WithORM/bin/Debug/net8.0/Practice_2_6WithORM.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_2_6WithORM/bin/Debug/net8.0/Practice_2_6WithORM.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practice_2_6WithORM/obj/Debug/net8.0/Practice_2_6WithORM.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_2_6WithORM/obj/Debug/net8.0/Practice_2_6WithORM.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practice_2_6WithORM/obj/Debug/net8.0/Practice_2_6WithORM.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_2_6WithORM/obj/Debug/net8.0/Practice_2_6WithORM.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_2_6WithORM/obj/Debug/net8.0/Practice_2_6WithORM.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_2_6WithORM/obj/Debug/net8.0/Practice_2_6WithORM.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_2_6WithORM/obj/Debug/net8.0/Practice_2_6WithORM.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_2_6WithORM/obj/Debug/net8.0/Practice_2_6WithORM.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_2_6WithORM/obj/Debug/net8.0/Practice_2_6WithORM.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_2_6WithORM/obj/Debug/net8.0/Practice_2_6WithORM.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_2_6WithORM/obj/Debug/net8.0/Practice_2_6WithORM.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_2_6WithORM/obj/Debug/net8.0/Practice_2_6WithORM.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_2_6WithORM/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_2_6WithORM/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_2_6WithORM/obj/Debug/net8.0/ref/Practice_2_6WithORM.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_2_6WithORM/obj/Debug/net8.0/ref/Practice_2_6WithORM.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_2_6WithORM/obj/Debug/net8.0/refint/Practice_2_6WithORM.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_2_6WithORM/obj/Debug/net8.0/refint/Practice_2_6WithORM.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +131,7 @@
       <workItem from="1715968749731" duration="8476000" />
       <workItem from="1715977388824" duration="20000" />
       <workItem from="1715999993752" duration="801000" />
+      <workItem from="1716001658994" duration="2330000" />
     </task>
     <servers />
   </component>

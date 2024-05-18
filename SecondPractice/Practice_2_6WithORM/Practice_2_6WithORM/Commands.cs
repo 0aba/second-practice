@@ -200,7 +200,7 @@ internal static class Сommands
         Console.WriteLine("Additional info: \n" +
                           "NONE - It's a special word that means to leave it unchangedй \n" +
                           "(See help-command in which command arguments you can use) \n" +
-                          "\"(...)\" - This means that the information must be recorded in these double forgings \" \" даже если это одно слово \n" +
+                          "\"(...)\" - This means that the information must be recorded in these double forgings \" \" even if it's one word\n" +
                           "(See help-command in which command arguments you can use) \n");
         Console.WriteLine("Command Syntax: ");
 
