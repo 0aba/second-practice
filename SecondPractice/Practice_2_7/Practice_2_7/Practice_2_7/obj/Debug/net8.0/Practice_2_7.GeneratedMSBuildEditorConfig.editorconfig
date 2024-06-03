@@ -1,0 +1,36 @@
+is_global = true
+build_property.AvaloniaNameGeneratorIsEnabled = true
+build_property.AvaloniaNameGeneratorBehavior = InitializeComponent
+build_property.AvaloniaNameGeneratorDefaultFieldModifier = internal
+build_property.AvaloniaNameGeneratorFilterByPath = *
+build_property.AvaloniaNameGeneratorFilterByNamespace = *
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Practice_2_7
+build_property.ProjectDir = C:\Users\aba\Desktop\second-practice\SecondPractice\Practice_2_7\Practice_2_7\Practice_2_7\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/aba/Desktop/second-practice/SecondPractice/Practice_2_7/Practice_2_7/Practice_2_7/App.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/aba/Desktop/second-practice/SecondPractice/Practice_2_7/Practice_2_7/Practice_2_7/WindowsApp/AdminWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/aba/Desktop/second-practice/SecondPractice/Practice_2_7/Practice_2_7/Practice_2_7/WindowsApp/EditWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/aba/Desktop/second-practice/SecondPractice/Practice_2_7/Practice_2_7/Practice_2_7/WindowsApp/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/aba/Desktop/second-practice/SecondPractice/Practice_2_7/Practice_2_7/Practice_2_7/WindowsApp/RegistrationWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/aba/Desktop/second-practice/SecondPractice/Practice_2_7/Practice_2_7/Practice_2_7/WindowsApp/UserWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
